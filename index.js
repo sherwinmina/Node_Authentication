@@ -12,7 +12,7 @@ mongoose.connect('mongodb://localhost:auth/auth')
 
 
 // App Setup
-app.use(morgan('comnined'));
+app.use(morgan('combined'));
 app.use(bodyParser.json({type: '*/*'}));
 router(app);
 
