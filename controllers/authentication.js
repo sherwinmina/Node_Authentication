@@ -9,6 +9,7 @@ function tokenForUser(user) {
 
 exports.signin = function(req, res, next) {
   //  user already have their email and password, they need a token
+  res.send({ roken: tokenForUser(req.user) });
 }
 
 exports.signup = function(req, res, next) {
