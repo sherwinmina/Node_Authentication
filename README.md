@@ -1,0 +1,1 @@
+This project a nodejs server setup for for hooking up a react application on the frontend that needs to hook up routing and user authentication to the backend.
